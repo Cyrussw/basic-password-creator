@@ -11,7 +11,7 @@ upper = "ABCDEFGHIFKLMNOPQRSTUVWXYZ"
 numbers = "0123456789"
 symbols = "!@#$%^&*()."
 result = lower + upper + numbers + symbols
-length = int(input("Şifre Uzunluğunu Girin: "))
+length = int(input("Please enter password length: "))
 
 password = "".join(random.sample(result,length))
 
